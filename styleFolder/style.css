@@ -1,0 +1,81 @@
+.button,button{
+    background-color: #FF6969;
+    color:#A10035;
+    border:3px solid #FF577F;
+    border-radius: 10px;
+}
+body{
+    background-color:#C08261;
+}
+p,h1,h2{
+    text-align: center;
+}
+h1{
+    color: #540b0e;
+    text-decoration: rgb(202, 44, 44) underline overline;
+    display: inline-block;
+    text-align: center;
+    position:fixed;
+    top:0px;
+}
+h2{
+    font-weight: bolder;
+    text-decoration:underline dotted #FFC6AC;
+    text-decoration-style: solid;
+    background-color:salmon;
+    width: 200px;
+    border-width: 3px;
+    border-style:double;
+    border-color:crimson ;
+    color: #D71313;
+    /* position:sticky; */
+    /* top:0px; */
+
+}
+/* #box{
+    background-color: #9A3B3B;
+} */
+#myid{
+    color: #606c38;
+    font-size: large;
+}
+caption{
+    color:#FFC6AC;
+    background-color:#8a1f1f;
+    font-size: large;
+}
+th{
+    background-color:#FFC6AC;
+    color:#8a1f1f;
+}
+tbody{
+    background-color: #9A3B3B;
+    color: #FFC6AC;
+}
+*{
+    font-style: oblique;
+}
+h4{
+    background-color: #D71313;
+}
+#one{
+    font-family: cursive,arial;
+    text-transform:unset;
+}
+table{
+    align-content: center;
+}
+#nikita{
+    background-image: url(images.jpeg);
+    background-size:cover;
+    width: 100px;
+    height: 100px;
+    border:8px outset rgb(202, 44, 44);
+    padding: 3px 25px 3px 25px ;
+    border-radius: 15px;
+    margin:1px;
+}
+#box1{
+    height: 15px;
+    border-radius: 50px;
+}

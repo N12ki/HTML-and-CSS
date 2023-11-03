@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    *{
+      font-size: larger;
+    }
+    ::selection{
+      color:#f50e0e;
+      background-color: yellow;
+    }
+    div i:first-child {
+      color: blue;
+    }
+    .hi{
+      background-color: rgb(6, 119, 248);
+      display: none;
+      padding: 20px;
+    }
+    div:hover p{
+      display: block;
+    }
+    p::first-letter{
+      color: red;
+      font-size: xx-large;
+    }
+    .img1{
+      filter:contrast(2);
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(https://www.textures4photoshop.com/tex/thumbs/grunge-vignette-border-png-transparent-for-photoshop-1093.png) round 30;
+    }
+    /* #exampel{
+      background-image: url(img_flwr.gif), url(niki.jpg);
+      background-position: right bottom, left top;
+      background-repeat: no-repeat, repeat;
+      padding: 15px;
+    } */
+    .img{
+      width: 400px;
+      height: 500px;
+      object-fit:cover;
+      object-position: 0% 0%;
+      animation: mymove 5s infinite;
+      padding: 0px;
+    }
+    @keyframes mymove{
+      0% {
+        object-position: 0% 0%;
+      }
+      25% {
+        object-position: 20% 0%;
+      }
+      100% {
+        object-position: 100% 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img class="img1" src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+    <!-- the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top: -->
+    <!-- The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top: -->
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="mac.jpg">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="cellphone.jpg">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffeehouse2.jpg">
+</map>
+<!-- <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p> -->
+<div> I am a <i>strong</i> person. I am a <i>strong</i> person.
+  <p class="hi">Tada! Here I am!</p>
+  <br>
+</div>
+<div id="example1">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+<!-- <img class="img" src="laxmi.jpeg">  -->
+<img class="img" src="https://previews.123rf.com/images/jackf/jackf1712/jackf171202180/91241912-company-of-kids-playing-football-on-the-playground-in-park.jpg">
+</body>
+</html>
+

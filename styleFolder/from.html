@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: large;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: 900;
+            background-image: url(https://media.istockphoto.com/id/638820876/photo/macro-close-up-of-different-color-oil-paint-colorful-acrylic.jpg?s=612x612&w=0&k=20&c=oDBblgFGoaU5K0CyJowQeYkVf5W25uRAqPnS6fG07Uc=);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        button{
+            background-color: darkblue;
+            color: white;
+            border-radius: 8px;
+            position: fixed;
+            right: 10px;
+            bottom: 20px;
+            height: 40px;
+            width: 60px;
+        }
+        .button{
+            background-color:#22c927;
+            display: inline-block;
+        }
+        .button:hover{
+            background-color:  #45a049;
+        }
+        table, th, td {
+        border: 3px solid black;
+        border-radius: 10px;
+        text-align:center;
+        color: white;
+        }
+        table{
+            background-color: #C88EA7;
+        }
+        tr:nth-child(even) {
+            background-color: #FF9B50;
+        }
+        tr:nth-child(odd) {
+	        background-color: #E25E3E;
+        }
+        div img{
+            margin-right: 30px;
+            position: absolute;
+            z-index: -1;
+            right: 40px;
+        }
+        h4 {
+            display: inline-block;
+        }
+        .img {
+            display: block;
+            margin: auto;
+        }
+        .from {
+            border-radius: 8px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-right: 50%;
+        }
+        input[type=text]{
+            padding: 12px 20px;
+            margin: 6px;
+            width: 80%;
+            height: auto;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+        input[type=text]:focus{
+            border: 3px solid #555;
+        }
+        textarea,input[type=password]{
+            padding: 12px 20px;
+            margin: 6px;
+            width: 80%;
+            height: auto;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+        textarea,input[type=password]:focus{
+            border: 3px solid #555;
+        }
+        iframe{
+            opacity: 1.0;
+        }
+        iframe:hover{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.21kschool.com/blog/wp-content/uploads/2022/09/10-Fun-Educational-Activities-to-Do-at-Home.png" width="300">
+    <br>
+    <h1>Object-Oriented Programming (OOP)</h1>
+    <br><br>
+
+    <hr>
+    <br><br>
+    <pre>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=G1p383H1PbwDSA56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTaVernWxMzMWpP7_W9xXGO7BDXWR0n6KLcw&usqp=CAU" height="200">
+    <br><br>
+    <hr>
+        <h3> Search about us: -</h3>
+            <iframe width="560" height="400" src="https://en.wikipedia.org/wiki/India" allowfullscreen></iframe>              <iframe width="560" height="400" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=bSooF6izYgsEMzTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <hr>
+    </pre>
+   <div class="from">
+    <h2>Registraction Form</h2>
+    <from action="/action.php">
+        <input type="text" placeholder="Type somthing here">
+        <br>
+        <br>
+        <input type="password" placeholder="password">
+        <br><br> <br><br>
+        <h4>Select Your Class</h4>
+        <label for="101">
+            <input type="radio" value="Class XI" name="Class" id="101">Class XI
+        </label>
+        <label for="102">
+            <input type="radio" value="Class XII" name="Class" id="102">Class XI
+        </label>
+        <br>
+        <br><br><br>
+    <h4>Select Your Favreat Subjects</h4>
+    <label for="math">
+               <input type="checkbox" value="math" name="subject" id="101">Math
+     </label>
+           <br><br>
+    <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="102">physies
+     </label>
+        <br><br>
+    <label for="chemestry">
+        <input type="checkbox" value="chemestry" name="subject" id="103">Chemestry
+    </label>
+        <br><br>
+    <label for="camputer science">
+        <input type="checkbox" value="camputer science" name="subject" id="104">Camputer Science
+    </label>
+
+        <h4>Select Your City</h4>
+        <br>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Lonar">Lonar</option>
+            <option value="Pune">Pune</option>
+            <option value="Amaravati">Amaravati</option>
+        </select>
+        <br><br><br><br>
+        <textarea name="feedback" placeholder="please give your feedback here" id="101" rows=5 type="text"></textarea>
+        <br><br>
+        <p class="button"><input type="submit" value="submit" class="button"></button></p>
+        </from>
+        <br><br><br>
+        <hr>
+    </div>
+<h2>Table With Rounded Borders</h2>
+
+<p>Use the CSS border-radius property to add rounded corners to the borders.</p>
+
+<table style="width:70%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+<br>
+<hr>
+<a href="amazon.html"><button>Next</button>
+<br><br>
+
+<footer>
+    <pre>
+                                        <img src="https://kurdishmother.files.wordpress.com/2015/07/image.jpg" width="300" class="img">
+    </pre>
+</body>
+</html>
